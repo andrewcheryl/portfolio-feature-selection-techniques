@@ -1,23 +1,34 @@
 # Portfolio Project: Feature Selection + Classification using the Madelon dataset 
 
 ## Problem statement
-Investigate the capability of machine learning techniques to identify relevant features in datasets with a large number of features (high dimensionality) that cannot be handled using conventional techniques.
+Investigate feature selection techniques available to identify the most relevant features in datasets with a large feature space (high dimensionality), that cannot be handled using conventional machine learning techniques.
 
-### Goal:
-    1. Identification of relevant features. 
-    2. Demonstrate impact on prediction accuracy 
+Feature selection is independent of the machine learning algorithm being used. Effective selection of a subset of features can have a significant impact on the quality of the results. This is especially true for high dimensional problems. 
 
-Two synthetically generated datasets will be used to investigate these techniques ...
+Some of the benefits of using feature selection are: 
+
+"	It enables the machine learning algorithm to train faster.
+"	It reduces the complexity of a model and makes it easier to interpret.
+"	It improves the accuracy of a model if the right subset is chosen.
+"	It reduces overfitting.
+
+
+## Goal
+
+    1. Identification of most relevant features. 
+    2. Demonstrate impact on prediction accuracy.
+
+Two synthetically generated datasets will be used to investigate these techniques:
 
     1. The Madelon Dataset from UCI Machine Learning Repository. This dataset has 500 features and is the canonical dataset for testing feature selection techniques.
-    2. A larger synthetically generated Madelon dataset with 1000 features and 200,000 observations     
+    2. A larger synthetically generated Madelon dataset with 1000 features and 200,000 observations.    
 
 
-## Overview
+## Highlevel approach
 Fundamentally, this is a binary classification challenge. Using the two datasets of differing sizes, a suite of feature selection options will be developed, and their effectiveness will be compared using a variety of classification models. The aim is to identify the 'best' features and model for each dataset.
 
 
-### Scope of solution report.
+## Project scope and structure
 0. EDA observations for each subset 
 1. Establish prediction accuracy benchmarks for raw dataset
 2. Implement 3 feature selection models
@@ -94,7 +105,7 @@ Target (y):
     
 Predictors (X):
   - 500 predictor features
-  - All features are of type integer
+  - All features are of type integer.
     
 #### Explore Univariate distributions
 First, we explore the distributions of each features. Let's look at the mean and standard deviation of each feature.
