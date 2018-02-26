@@ -7,10 +7,10 @@ Feature selection is independent of the machine learning algorithm being used. E
 
 Some of the benefits of using feature selection are: 
 
-"	It enables the machine learning algorithm to train faster.
-"	It reduces the complexity of a model and makes it easier to interpret.
-"	It improves the accuracy of a model if the right subset is chosen.
-"	It reduces overfitting.
+* It enables the machine learning algorithm to train faster.
+* It reduces the complexity of a model and makes it easier to interpret.
+* It improves the accuracy of a model if the right subset is chosen.
+* It reduces overfitting.
 
 
 ## Goal
@@ -20,7 +20,8 @@ Some of the benefits of using feature selection are:
 
 Two synthetically generated datasets will be used to investigate these techniques:
 
-    1. The Madelon Dataset from UCI Machine Learning Repository. This dataset has 500 features and is the canonical dataset for testing feature selection techniques.
+    1. The Madelon Dataset from UCI Machine Learning Repository. 
+       This dataset has 500 features and is the canonical dataset for testing feature selection techniques.
     2. A larger synthetically generated Madelon dataset with 1000 features and 200,000 observations.    
 
 
